@@ -1,4 +1,3 @@
-from hashlib import new
 from PyQt6 import QtWidgets
 import sys
 
@@ -22,7 +21,7 @@ class bombWindow:
         parallel = self.ui.parallelPort_checkBox.isChecked()
         # self.main_window.close()
         
-        newBomb = Bomb(serial, parallel, battery, lit)
+        newBomb = Bomb(serial, parallel, battery, lit) #TODO return this?
         print(newBomb.__str__())
     
     def parallel_clicked(self):
@@ -42,12 +41,10 @@ class Bomb:
     def __str__(self):
         return "Bomb: serialNum: {}, parrallelPort: {}, Lit: {}, Strikes: {}".format(self.serialNum, self.parrallelPort, self.Lit, self.strikeCount)
 
-    def __repr__(self):
-        return self.__str__()
     
     def serialLastDigit(self):
         #True if last digit is even
-        return self.serialNum[-1] % 2 ==0
+        return self.serialNum[-1] % 2 == 0
     
     def serialContainsVowel(self):
         vowelCount = False
@@ -64,12 +61,10 @@ class Bomb:
     
     def returnStrike(self):
         return self.strikeCount
-
-
-
+    
+    #TODO Some Lit indicator methods would be great
 
 if __name__ == "__main__":
-    print("tester")
     window = bombWindow()
     window.main_window.show()
     sys.exit(window.app.exec())

@@ -11,6 +11,12 @@ class Window:
         self.ui = mainWindow.Ui_MainWindow()
         self.ui.setupUi(self.main_window)
         self.ui.createBomb_btn.clicked.connect(self.button_clicked)
+        self.ui.strike_btn.clicked.connect(self.strike_clicked)
+        
+    
+    def strike_clicked(self):
+        self.ui.strikes_lcdNumber.display() # TODO Work out how the bomb object will interact with this
+        pass
     
     def button_clicked(self):
         self.main_window.close()
