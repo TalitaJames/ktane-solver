@@ -59,7 +59,7 @@
      <string>Strikes</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="strike_btn">
     <property name="geometry">
      <rect>
       <x>750</x>

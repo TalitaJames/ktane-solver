@@ -44,7 +44,7 @@ background-color: rgb(247, 255, 160);</string>
      <string notr="true">font: 12pt &quot;OCR A Extended&quot;;</string>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string>Create Bomb</string>
     </property>
    </widget>
    <widget class="QTextEdit" name="serial_txt">

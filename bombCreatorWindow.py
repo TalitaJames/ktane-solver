@@ -84,7 +84,7 @@ class Ui_MainWindow(object):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
         self.serial_lbl.setText(_translate("MainWindow", "Serial Number"))
-        self.submit_btn.setText(_translate("MainWindow", "PushButton"))
+        self.submit_btn.setText(_translate("MainWindow", "Create Bomb"))
         self.battery_lbl.setText(_translate("MainWindow", "Batteries"))
         self.lit_lbl.setText(_translate("MainWindow", "Lit Indicators"))
         self.parallelPort_lbl.setText(_translate("MainWindow", "Parallel port?"))
