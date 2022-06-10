@@ -132,5 +132,19 @@ def theButton(colour, text):
         else:
             return "Release when timer has: 1"
 
-def keypads()
+def keypads():
+    pass
+
+def simonSays():
+    #If the serial number contains a vowel:
+    if bomb.serialContainsVowel():
+        if bomb.batteryCount()==0:
+            return {"R":"B","B":"R","G":"Y","Y":"G"}
+        elif bomb.batteryCount()==1:
+            return {"R":"Y","B":"G","G":"B","Y":"R"}
+        elif bomb.batteryCount()==2:
+            return {"R":"G","B":"R","G":"Y","Y":"B"}
+    else:
+        pass
+
 

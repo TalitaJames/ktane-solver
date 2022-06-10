@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="serial_lbl">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>220</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;OCR A Extended&quot;;
+background-color: rgb(247, 255, 160);</string>
+    </property>
+    <property name="text">
+     <string>Serial Number</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="submit_btn">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>470</y>
+      <width>151</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;OCR A Extended&quot;;</string>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="serial_txt">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>30</y>
+      <width>104</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;OCR A Extended&quot;;
+background-color: rgb(247, 255, 160);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="battery_lbl">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>110</y>
+      <width>220</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;OCR A Extended&quot;;
+background-color: rgb(212, 248, 255)</string>
+    </property>
+    <property name="text">
+     <string>Batteries</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="battery_txt">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>110</y>
+      <width>104</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;OCR A Extended&quot;;
+background-color: rgb(212, 248, 255)</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="lit_txt">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>190</y>
+      <width>104</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;OCR A Extended&quot;;
+background-color: rgb(255, 190, 196)</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lit_lbl">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>190</y>
+      <width>220</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;OCR A Extended&quot;;
+background-color: rgb(255, 190, 196)</string>
+    </property>
+    <property name="text">
+     <string>Lit Indicators</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="parallelPort_lbl">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>270</y>
+      <width>291</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;OCR A Extended&quot;;
+background-color: rgb(190, 255, 160);</string>
+    </property>
+    <property name="text">
+     <string>Parallel port?</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="parallelPort_checkBox">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>270</y>
+      <width>81</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;OCR A Extended&quot;;
+background-color: rgb(190, 255, 160);</string>
+    </property>
+    <property name="text">
+     <string>No</string>
+    </property>
+   </widget>
+   <zorder>serial_lbl</zorder>
+   <zorder>submit_btn</zorder>
+   <zorder>serial_txt</zorder>
+   <zorder>battery_lbl</zorder>
+   <zorder>battery_txt</zorder>
+   <zorder>lit_lbl</zorder>
+   <zorder>lit_txt</zorder>
+   <zorder>parallelPort_lbl</zorder>
+   <zorder>parallelPort_checkBox</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
