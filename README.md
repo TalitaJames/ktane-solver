@@ -3,19 +3,19 @@
 
 
 ## Modules and their updates
-| Module Name | Development Status |
-|---|---|
-| Simple Wires |  |
-| The button |  |
-| Keypads |  |
-| Simon Says |  |
-| Who's On First |  |
-| Memory |  |
-| Morse Code |  |
-| Complicated Wires |  |
-| Wire Sequences |  |
-| Mazes |  |
-| Passwords |  |
-| Venting Gas | (No Manual Needed) |
-| Capacitor Discharge | (No Manual Needed) |
-| Knobs |  |
+| Module Name | Program Name | Development Status |
+|---|---|---|
+| Simple Wires | simpleWires |  |
+| The button | button |  |
+| Keypads | keypads |  |
+| Simon Says | simonSays |  |
+| Who's On First | whoOnFirst |  |
+| Memory | memory |  |
+| Morse Code | morseCode |  |
+| Complicated Wires | compWires |  |
+| Wire Sequences | wireSeq |  |
+| Mazes | mazes |  |
+| Passwords | passwords |  |
+| Venting Gas | -- | (No Manual Needed) |
+| Capacitor Discharge | -- | (No Manual Needed) |
+| Knobs | knobs |  |
