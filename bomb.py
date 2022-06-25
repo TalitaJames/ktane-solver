@@ -19,10 +19,12 @@ class bombWindow:
         battery = self.ui.battery_txt.toPlainText()
         lit = self.ui.lit_txt.toPlainText()
         parallel = self.ui.parallelPort_checkBox.isChecked()
-        # self.main_window.close()
+        
         
         newBomb = Bomb(serial, parallel, battery, lit) #TODO return this?
         print(newBomb.__str__())
+
+        # self.main_window.close() #TODO Have it close the window and open the main one again
     
     def parallel_clicked(self):
         if self.ui.parallelPort_checkBox.isChecked():

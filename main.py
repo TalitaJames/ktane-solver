@@ -3,6 +3,7 @@ import sys
 
 from PyQt6.QtWidgets import QApplication
 import mainWindow
+import bomb
 
 class Window:
     def __init__(self):
@@ -18,8 +19,11 @@ class Window:
         self.ui.strikes_lcdNumber.display() # TODO Work out how the bomb object will interact with this
         pass
     
-    def button_clicked(self):
-        self.main_window.close()
+    def button_clicked(self): # TODO close the window and open the bomb one
+        # self.main_window.close()
+        windowBomb = bomb.bombWindow()
+        windowBomb.main_window.show()
+        
         
     
     
